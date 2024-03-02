@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header{
+    width: 100%;
+    background-color: #e4e0e0;
+}
+
+.navbar{
+    width: 100%;
+    padding:6px 5%;
+    background-color: #262626;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbar #bar{
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.navbar #bar i{
+    font-size: 2rem;
+    color: white;
+
+}
+
+
+.navbar h4{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+.navbar .nav-logo{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar .nav-logo i{
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 25px;
+}
+
+
+
+/*head-content start*/
+
+
+
+.head-content{
+    width: 100%;
+    display: inline-flex;
+    padding: 35px 0 15px 0;
+    
+}
+
+
+.main-logo{
+    width: 20%;
+    display: flex;
+    float: left;
+}
+
+.main-logo img{
+    margin: 0 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.heading{
+    width: 80%;
+    float: left;
+}
+
+
+.heading a h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #454545;
+   
+}
+
+.heading a{
+    text-decoration: none;
+}
+
+.heading h5{
+    color: gray;
+    font-weight: 100;
+    font-size: 1rem;
+    margin: 8px 0;
+}
+
+.btn{
+    width: 115px;
+    height:40px;
+    background-color: #7aa93c;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn a{
+    color: #fafafa;
+    text-decoration: none;
+    
+}
+
+
+
+.head-bio{
+    width: 100%;
+    padding: 0 5%;
+    margin-bottom: 40px;
+    
+}
+
+.head-bio .rat-heading{
+    width: 100%;
+    display: inline-flex;
+    font-size: 1.3rem;
+    color: #454545;
+}
+
+.rat-value{
+    padding: 18px 0 30px 0;
+}
+
+.rat-heading .author,.rat-value .author{
+    width: 48%;
+    float: left;
+}
+
+.rat-heading .sales,.rat-value .sales{
+    width: 52%;
+    float: left;
+}
+
+.rat-value .author .star{
+    color: #f1b009;
+    margin: 0 4px;
+    font-size: 1.2rem;
+}
+
+
+.rat-value .sales{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #454545;
+}
+.clear{
+    clear: both;
+}
+
+
+/*head menu start*/
+
+.head-menu{
+    
+    width: 100%;
+    padding: 0 5%;
+}
+
+.head-menu ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.head-menu ul li{
+    padding: 15px;
+}
+
+.head-menu ul li a{
+    text-decoration: none;
+    
+    color: #454545;
+}
+
+.head-menu ul li:nth-child(2){
+    border: 1px solid black;
+    background-color: white;
+    border-bottom: none;
+}
+
+.followers,.following{
+    background-color: #414040;
+    color:white;
+    padding:2px;
+    border-radius: 4px;
+}
+
+#hp{
+    width: 100%;
+    height: .1px;
+    background-color: black;
+    border:0px ;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*drop down container start*/
+
+.dp-container{
+    padding: 30px 3%;
+    margin: 0 0 5px 0;
+}
+
+.body-option{
+    display: inline-flex;
+
+}
+
+select{
+    padding: 10px;
+    border-radius: 7px;
+}
+
+option{
+    font-weight: bold;
+}
+
+.arrow{
+    padding: 0 20px;
+    font-size: 1.6rem;
+    font-weight: 1200;
+    display: flex;
+    align-items: center;
+}
+
+/*product start*/
+
+.product{
+    width: 100%;
+    padding: 0 3%;
+    display: inline-flex;
+    margin-top: 25px;
+}
+
+.product .product-logo{
+    width: 20%;
+    display: flex;
+    align-items: top;
+}
+
+.product .product-logo{
+    transform: scale(1.1);
+}
+
+
+.product-dis a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.product-dis a .product-name{
+    font-weight: bold;
+    padding:0 0 25px 0;
+    
+}
+
+
+.product-add{
+    margin: 25px 0 20px 0;
+}
+
+.product-dis a .p-value{
+    margin-bottom: 7px;
+}
+
+.product-dis a .ter{
+    color: rgb(1, 141, 255);
+}
+
+.product-add a{
+    margin-right: 50px;
+}
+
+.product-add a i{
+    font-size: 1.5rem;
+    color: #b3afaf;
+}
+
+
+.hr{
+    
+    width: 96%;
+    
+    margin: 0 auto;
+
+}
+
+.search-port{
+    width: 98%;
+    margin:20px auto;
+    border: .01px solid rgb(204, 203, 203);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-port .search{
+    color: white;
+    background-color: rgb(54, 54, 54);
+    margin: 0 10px 0 0;
+    padding: 5px;
+    width: 100%;
+}
+
+.search-port .input-div{
+    width: 100%;
+    padding: 5px;
+}
+
+.search-port .input-div .input{
+    border: .1px solid rgb(204, 203, 203);
+    border-radius: 7px;
+    padding: 7px;
+    width: 100%;
+}
+
+
+.about-author{
+    margin: 0 auto;
+    border: .1px solid rgb(163, 162, 162);
+    border-radius: 6px;
+    overflow: hidden;
+    width: 98%;
+}
+
+.about-author .aah{
+    color: white;
+    background-color: #262626;
+    padding: 7px;
+}
+
+.logo-div img{
+    padding: 4px;
+}
+
+.about-author p{
+    padding: 6px 5px 10px 5px;
+}
+
+.about-author ul{
+    display: inline-flex;
+    padding: 0 8px;
+    list-style-type: none;
+}
+
+.about-author ul li img{
+    width: 35px;
+    height: 35px;
+    margin-left: 4px;
+}
+
+
+.viewing{
+    width: 98%;
+    margin:20px auto;
+    border: .01px solid rgb(204, 203, 203);
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+}
+
+.viewing .l9{
+    width: 13%;
+}
+
+.viewing .view-bio{
+    width: 85%;
+    text-align: left;
+}
+
+.view-bio p{
+    font-size: 9px;
+    margin: 9px 0;
+    color: #929090;
+}
+
+
+/*card*/
+
+
+.card-container{
+    width: 100%;
+    margin: 30px 0 0 0;
+    background-color: #2b2929;
+    border-radius: 8px;
+    padding: 40px 0;
+}
+
+
+
+.card-container .card1{
+    
+    width: 80%;
+    height: 400px;
+    background-color: #7aa93c;
+    margin: 40px auto;
+    border-radius: 8px;
+}
+
+.card-container .card2{
+    
+    width: 80%;
+    height: 300px;
+    background-color: #7aa93c;
+    margin: 40px auto;
+    border-radius: 8px;
+}
+
+.card-img{
+    width: 100%;
+    height: 60%;
+    background-image: linear-gradient(to right,rgb(46, 110, 248),rgb(110, 61, 226));
+}
+
+.card-bio{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+}
